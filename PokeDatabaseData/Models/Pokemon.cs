@@ -6,11 +6,11 @@ namespace PokeDatabaseData.Models
 {
     public class Pokemon
     {
-        public int pokId { get; set; }
-        public string pokName { get; set; }
+        public int PokId { get; set; }
+        public string PokName { get; set; }
         public int SpeciesId { get; set; }
-        public double height { get; set; }
+        public double Height { get; set; }
         public decimal Weight { get; set; }
-        public int baseExp { get; set; }
+        public int BaseExp { get; set; }
     }
 }
