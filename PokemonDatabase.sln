@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonDatabase", "PokemonDatabase\PokemonDatabase.csproj", "{D81FFA8E-EF66-4834-94E8-B204A776C989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDatabaseData", "PokeDatabaseData\PokeDatabaseData.csproj", "{D8A678AC-B1A9-403F-91DF-B11FA35760C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D81FFA8E-EF66-4834-94E8-B204A776C989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D81FFA8E-EF66-4834-94E8-B204A776C989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D81FFA8E-EF66-4834-94E8-B204A776C989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A678AC-B1A9-403F-91DF-B11FA35760C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A678AC-B1A9-403F-91DF-B11FA35760C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A678AC-B1A9-403F-91DF-B11FA35760C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A678AC-B1A9-403F-91DF-B11FA35760C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
