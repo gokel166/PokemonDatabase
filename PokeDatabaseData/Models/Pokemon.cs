@@ -7,6 +7,7 @@ namespace PokeDatabaseData.Models
 {
     public class Pokemon
     {
+        public int Id { get; set; }
         [Required]
         public int PokId { get; set; }
         public string PokName { get; set; }
