@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using PokeDatabaseData.Models;
 
 namespace PokeDatabaseData
 {
@@ -7,6 +8,6 @@ namespace PokeDatabaseData
     {
         public PokemonContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<PokemonContext> Pokemons { get; set; }
+        public DbSet<Pokemon> Pokemons { get; set; }
     }
 }
